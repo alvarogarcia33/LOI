@@ -1,0 +1,159 @@
+# Wiki Masters of Game
+
+Fuente principal: https://wiki-masters.legendsofinteractions.com/en
+Fecha de captura: 2026-06-01
+
+Paginas capturadas: 150
+
+## Indice
+
+- [advisor](./components__advisor-en__advisor.md) - https://wiki-masters.legendsofinteractions.com/en/components/advisor-en/
+- [baitmaster](./components__baitmaster-en__baitmaster.md) - https://wiki-masters.legendsofinteractions.com/en/components/baitmaster-en/
+- [baitmaster pro](./components__baitmaster-pro-en__baitmaster-pro.md) - https://wiki-masters.legendsofinteractions.com/en/components/baitmaster-pro-en/
+- [battery](./components__battery-en__battery.md) - https://wiki-masters.legendsofinteractions.com/en/components/battery-en/
+- [billboard](./components__billboard-en__billboard.md) - https://wiki-masters.legendsofinteractions.com/en/components/billboard-en/
+- [booster](./components__booster-en__booster.md) - https://wiki-masters.legendsofinteractions.com/en/components/booster-en/
+- [chief advisor](./components__chief-advisor-en__chief-advisor.md) - https://wiki-masters.legendsofinteractions.com/en/components/chief-advisor-en/
+- [coin](./components__coin__coin.md) - https://wiki-masters.legendsofinteractions.com/en/components/coin/
+- [connect+ 1y](./components__connect-1y-en__connect-1y.md) - https://wiki-masters.legendsofinteractions.com/en/components/connect-1y-en/
+- [connect+ 90d](./components__connect-90d-en__connect-90d.md) - https://wiki-masters.legendsofinteractions.com/en/components/connect-90d-en/
+- [control hexatile 27x](./components__control-hexatile-27x-en__control-hexatile-27x.md) - https://wiki-masters.legendsofinteractions.com/en/components/control-hexatile-27x-en/
+- [control hexatile 3x](./components__control-hexatile-3x-en__control-hexatile-3x.md) - https://wiki-masters.legendsofinteractions.com/en/components/control-hexatile-3x-en/
+- [control hexatile 9x](./components__control-hexatile-9x-en__control-hexatile-9x.md) - https://wiki-masters.legendsofinteractions.com/en/components/control-hexatile-9x-en/
+- [extra orb](./components__extra-orb-en__extra-orb.md) - https://wiki-masters.legendsofinteractions.com/en/components/extra-orb-en/
+- [hepta coin](./components__hepta-coin-en__hepta-coin.md) - https://wiki-masters.legendsofinteractions.com/en/components/hepta-coin-en/
+- [hexa coin](./components__hexa-coin-en__hexa-coin.md) - https://wiki-masters.legendsofinteractions.com/en/components/hexa-coin-en/
+- [high population density](./components__high-population-density__high-population-density.md) - https://wiki-masters.legendsofinteractions.com/en/components/high-population-density/
+- [land bider](./components__land-bider-en__land-bider.md) - https://wiki-masters.legendsofinteractions.com/en/components/land-bider-en/
+- [land buyer](./components__land-buyer-en__land-buyer.md) - https://wiki-masters.legendsofinteractions.com/en/components/land-buyer-en/
+- [land](./components__land-en__land.md) - https://wiki-masters.legendsofinteractions.com/en/components/land-en/
+- [land seller](./components__land-seller-en__land-seller.md) - https://wiki-masters.legendsofinteractions.com/en/components/land-seller-en/
+- [magic line](./components__magic-line-en__magic-line.md) - https://wiki-masters.legendsofinteractions.com/en/components/magic-line-en/
+- [maps](./components__maps-en__maps.md) - https://wiki-masters.legendsofinteractions.com/en/components/maps-en/
+- [mogxxx000 battery](./components__mogxxx000-battery-en__mogxxx000-battery.md) - https://wiki-masters.legendsofinteractions.com/en/components/mogxxx000-battery-en/
+- [objects](./components__objects__objects.md) - https://wiki-masters.legendsofinteractions.com/en/components/objects/
+- [octa coin](./components__octa-coin-en__octa-coin.md) - https://wiki-masters.legendsofinteractions.com/en/components/octa-coin-en/
+- [orb auto-setter](./components__orb-auto-setter-en__orb-auto-setter.md) - https://wiki-masters.legendsofinteractions.com/en/components/orb-auto-setter-en/
+- [orb commander](./components__orb-commander-en__orb-commander.md) - https://wiki-masters.legendsofinteractions.com/en/components/orb-commander-en/
+- [orb master](./components__orb-master-en__orb-master.md) - https://wiki-masters.legendsofinteractions.com/en/components/orb-master-en/
+- [re-charger config](./components__re-charger-config-en__re-charger-config.md) - https://wiki-masters.legendsofinteractions.com/en/components/re-charger-config-en/
+- [re-charger](./components__re-charger-en__re-charger.md) - https://wiki-masters.legendsofinteractions.com/en/components/re-charger-en/
+- [reex coin](./components__reex-coin-en__reex-coin.md) - https://wiki-masters.legendsofinteractions.com/en/components/reex-coin-en/
+- [researcher 30d](./components__researcher-30d-en__researcher-30d.md) - https://wiki-masters.legendsofinteractions.com/en/components/researcher-30d-en/
+- [researcher 90d](./components__researcher-90d-en__researcher-90d.md) - https://wiki-masters.legendsofinteractions.com/en/components/researcher-90d-en/
+- [shard setter 30d](./components__shard-setter-30d-en__shard-setter-30d.md) - https://wiki-masters.legendsofinteractions.com/en/components/shard-setter-30d-en/
+- [shard setter 90d](./components__shard-setter-90d-en__shard-setter-90d.md) - https://wiki-masters.legendsofinteractions.com/en/components/shard-setter-90d-en/
+- [shards](./components__shards-en__shards.md) - https://wiki-masters.legendsofinteractions.com/en/components/shards-en/
+- [smart balancer](./components__smart-balancer-en__smart-balancer.md) - https://wiki-masters.legendsofinteractions.com/en/components/smart-balancer-en/
+- [unesco](./components__unesco-en__unesco.md) - https://wiki-masters.legendsofinteractions.com/en/components/unesco-en/
+- [Masters of Game Wiki](./home__masters-of-game-wiki.md) - https://wiki-masters.legendsofinteractions.com/en/
+- [orb](./orbs__100__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/100/
+- [orb](./orbs__101__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/101/
+- [orb](./orbs__102__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/102/
+- [orb](./orbs__103__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/103/
+- [orb](./orbs__104__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/104/
+- [orb](./orbs__105__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/105/
+- [orb](./orbs__106__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/106/
+- [orb](./orbs__107__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/107/
+- [orb](./orbs__108__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/108/
+- [orb](./orbs__109__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/109/
+- [orb](./orbs__110__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/110/
+- [orb](./orbs__111__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/111/
+- [orb](./orbs__112__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/112/
+- [orb](./orbs__113__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/113/
+- [orb](./orbs__114__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/114/
+- [orb](./orbs__115__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/115/
+- [orb](./orbs__116__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/116/
+- [orb](./orbs__117__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/117/
+- [orb](./orbs__118__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/118/
+- [orb](./orbs__119__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/119/
+- [orb](./orbs__120__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/120/
+- [orb](./orbs__23__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/23/
+- [orb](./orbs__24__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/24/
+- [orb](./orbs__25__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/25/
+- [orb](./orbs__26__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/26/
+- [orb](./orbs__27__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/27/
+- [orb](./orbs__28__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/28/
+- [orb](./orbs__29__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/29/
+- [orb](./orbs__30__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/30/
+- [orb](./orbs__31__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/31/
+- [orb](./orbs__32__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/32/
+- [orb](./orbs__33__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/33/
+- [orb](./orbs__34__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/34/
+- [orb](./orbs__35__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/35/
+- [orb](./orbs__36__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/36/
+- [orb](./orbs__37__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/37/
+- [orb](./orbs__38__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/38/
+- [orb](./orbs__39__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/39/
+- [orb](./orbs__40__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/40/
+- [orb](./orbs__41__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/41/
+- [orb](./orbs__42__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/42/
+- [orb](./orbs__43__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/43/
+- [orb](./orbs__44__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/44/
+- [orb](./orbs__45__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/45/
+- [orb](./orbs__46__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/46/
+- [orb](./orbs__48__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/48/
+- [orb](./orbs__49__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/49/
+- [orb](./orbs__50__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/50/
+- [orb](./orbs__51__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/51/
+- [orb](./orbs__52__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/52/
+- [orb](./orbs__53__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/53/
+- [orb](./orbs__54__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/54/
+- [orb](./orbs__55__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/55/
+- [orb](./orbs__57__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/57/
+- [orb](./orbs__58__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/58/
+- [orb](./orbs__59__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/59/
+- [orb](./orbs__60__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/60/
+- [orb](./orbs__61__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/61/
+- [orb](./orbs__62__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/62/
+- [orb](./orbs__63__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/63/
+- [orb](./orbs__64__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/64/
+- [orb](./orbs__65__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/65/
+- [orb](./orbs__66__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/66/
+- [orb](./orbs__67__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/67/
+- [orb](./orbs__68__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/68/
+- [orb](./orbs__69__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/69/
+- [orb](./orbs__70__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/70/
+- [orb](./orbs__71__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/71/
+- [orb](./orbs__72__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/72/
+- [orb](./orbs__73__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/73/
+- [orb](./orbs__74__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/74/
+- [orb](./orbs__75__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/75/
+- [orb](./orbs__76__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/76/
+- [orb](./orbs__77__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/77/
+- [orb](./orbs__78__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/78/
+- [orb](./orbs__79__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/79/
+- [orb](./orbs__80__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/80/
+- [orb](./orbs__81__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/81/
+- [orb](./orbs__82__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/82/
+- [orb](./orbs__83__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/83/
+- [orb](./orbs__84__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/84/
+- [orb](./orbs__85__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/85/
+- [orb](./orbs__86__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/86/
+- [orb](./orbs__87__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/87/
+- [orb](./orbs__88__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/88/
+- [orb](./orbs__89__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/89/
+- [orb](./orbs__90__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/90/
+- [orb](./orbs__91__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/91/
+- [orb](./orbs__92__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/92/
+- [orb](./orbs__93__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/93/
+- [orb](./orbs__94__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/94/
+- [orb](./orbs__95__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/95/
+- [orb](./orbs__96__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/96/
+- [orb](./orbs__97__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/97/
+- [orb](./orbs__98__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/98/
+- [orb](./orbs__99__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/99/
+- [orb](./orbs__orb.md) - https://wiki-masters.legendsofinteractions.com/en/orbs/
+- [resources](./resources__22__resources.md) - https://wiki-masters.legendsofinteractions.com/en/resources/22/
+- [resources](./resources__23__resources.md) - https://wiki-masters.legendsofinteractions.com/en/resources/23/
+- [resources](./resources__24__resources.md) - https://wiki-masters.legendsofinteractions.com/en/resources/24/
+- [resources](./resources__25__resources.md) - https://wiki-masters.legendsofinteractions.com/en/resources/25/
+- [resources](./resources__26__resources.md) - https://wiki-masters.legendsofinteractions.com/en/resources/26/
+- [resources](./resources__27__resources.md) - https://wiki-masters.legendsofinteractions.com/en/resources/27/
+- [resources](./resources__28__resources.md) - https://wiki-masters.legendsofinteractions.com/en/resources/28/
+- [resources](./resources__29__resources.md) - https://wiki-masters.legendsofinteractions.com/en/resources/29/
+- [resources](./resources__30__resources.md) - https://wiki-masters.legendsofinteractions.com/en/resources/30/
+- [resources](./resources__31__resources.md) - https://wiki-masters.legendsofinteractions.com/en/resources/31/
+- [resources](./resources__32__resources.md) - https://wiki-masters.legendsofinteractions.com/en/resources/32/
+- [resources](./resources__33__resources.md) - https://wiki-masters.legendsofinteractions.com/en/resources/33/
+- [resources](./resources__resources.md) - https://wiki-masters.legendsofinteractions.com/en/resources/

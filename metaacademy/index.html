@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MetaAcademy</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__backdrop" aria-hidden="true"></div>
+        <div class="orbital orbital--one" aria-hidden="true"></div>
+        <div class="orbital orbital--two" aria-hidden="true"></div>
+        <div class="grid-scan" aria-hidden="true"></div>
+
+        <nav class="topbar" aria-label="Principal">
+          <a class="brand" href="#hero-title" aria-label="MetaAcademy inicio">
+            <span class="brand__mark">M</span>
+            <span>MetaAcademy</span>
+          </a>
+          <a class="topbar__link" href="#knowledge">Base de conocimientos</a>
+        </nav>
+
+        <div class="hero__content">
+          <p class="kicker hero__kicker">Laboratorio de aprendizaje Web3</p>
+          <h1 id="hero-title">Bienvenidos a MetaAcademy</h1>
+          <p class="hero__copy">
+            Un centro de orientación para aprender el ecosistema, entender los programas y convertir conocimiento en decisiones más claras.
+          </p>
+
+          <div class="access-grid" aria-label="Accesos principales">
+            <a class="access-card access-card--players" href="/jugadores.html">
+              <span class="access-card__title">Jugadores</span>
+              <span class="access-card__text">Entrenamiento para explorar, recolectar, minar, comerciar y construir estrategia.</span>
+            </a>
+            <a class="access-card access-card--masters" href="#masters">
+              <span class="access-card__title">Maestros del Juego</span>
+              <span class="access-card__text">TerritoryX, oficina interna, asesores y oportunidades de monetización.</span>
+            </a>
+            <a class="access-card access-card--market" href="#market-makers">
+              <span class="access-card__title">Creadores de Mercado</span>
+              <span class="access-card__text">H-MAP, farming, tokens, estructura y lectura estratégica del ecosistema.</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="pathways" aria-label="Rutas de aprendizaje">
+        <article id="players" class="pathway">
+          <span class="pathway__label">Ruta 01</span>
+          <h2>Jugadores</h2>
+          <p>Una ruta para entender el rol del jugador: caminar, escanear, recolectar, minar, mejorar, conquistar e intercambiar activos digitales.</p>
+        </article>
+        <article id="masters" class="pathway">
+          <span class="pathway__label">Ruta 02</span>
+          <h2>Maestros del Juego</h2>
+          <p>Explora MOG, asesores, campañas, objetos, mapas y servicios vinculados a la oficina interna.</p>
+        </article>
+        <article id="market-makers" class="pathway">
+          <span class="pathway__label">Ruta 03</span>
+          <h2>Creadores de Mercado</h2>
+          <p>Consulta reglas de 7PT, 9PT, 7PT PRO, Farming Points, comisiones y combinaciones de interacción.</p>
+        </article>
+      </section>
+
+      <section id="knowledge" class="knowledge" aria-labelledby="knowledge-title">
+        <div class="knowledge__intro">
+          <p class="kicker">Cerebro documental</p>
+          <h2 id="knowledge-title">Base de conocimientos</h2>
+          <p>Haz una pregunta y MetaAcademy buscará en los documentos locales capturados desde Olympia Lab.</p>
+          <div class="stats" id="stats" aria-live="polite">Cargando base...</div>
+        </div>
+
+        <div class="ask-panel">
+          <form id="ask-form" class="ask-panel__form">
+            <label for="question">Pregunta</label>
+            <textarea id="question" name="question" rows="4" placeholder="Ejemplo: ¿Cómo funciona el farming estándar de 7PT PRO?"></textarea>
+            <button class="pulse-button" type="submit">
+              <span>Consultar base</span>
+            </button>
+          </form>
+
+          <div class="answer" aria-live="polite">
+            <div class="answer__status" id="answer-status">Esperando tu pregunta.</div>
+            <div class="answer__body" id="answer-body"></div>
+            <div class="sources" id="sources"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>
