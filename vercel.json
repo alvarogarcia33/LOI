@@ -1,0 +1,29 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/metaacademy/index.html"
+    },
+    {
+      "source": "/jugadores",
+      "destination": "/metaacademy/jugadores.html"
+    },
+    {
+      "source": "/jugadores.html",
+      "destination": "/metaacademy/jugadores.html"
+    },
+    {
+      "source": "/styles.css",
+      "destination": "/metaacademy/styles.css"
+    },
+    {
+      "source": "/app.js",
+      "destination": "/metaacademy/app.js"
+    },
+    {
+      "source": "/assets/(.*)",
+      "destination": "/metaacademy/assets/$1"
+    }
+  ]
+}
