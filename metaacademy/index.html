@@ -72,20 +72,18 @@
           <div class="stats" id="stats" aria-live="polite">Cargando base...</div>
         </div>
 
-        <div class="ask-panel">
-          <form id="ask-form" class="ask-panel__form">
-            <label for="question">Pregunta</label>
-            <textarea id="question" name="question" rows="4" placeholder="Ejemplo: ¿Cómo funciona el farming estándar de 7PT PRO?"></textarea>
-            <button class="pulse-button" type="submit">
-              <span>Consultar base</span>
-            </button>
-          </form>
+        <form id="ask-form" class="ask-panel">
+          <label for="question">Pregunta</label>
+          <textarea id="question" name="question" rows="4" placeholder="Ejemplo: ¿Cómo funciona el farming estándar de 7PT PRO?"></textarea>
+          <button class="pulse-button" type="submit">
+            <span>Consultar base</span>
+          </button>
+        </form>
 
-          <div class="answer" aria-live="polite">
-            <div class="answer__status" id="answer-status">Esperando tu pregunta.</div>
-            <div class="answer__body" id="answer-body"></div>
-            <div class="sources" id="sources"></div>
-          </div>
+        <div class="answer" aria-live="polite">
+          <div class="answer__status" id="answer-status">Esperando tu pregunta.</div>
+          <div class="answer__body" id="answer-body"></div>
+          <div class="sources" id="sources"></div>
         </div>
       </section>
     </main>

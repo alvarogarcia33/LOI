@@ -387,24 +387,45 @@ h1 {
 
 .knowledge {
   display: grid;
-  grid-template-columns: 0.82fr 1.18fr;
-  gap: 16px;
+  grid-template-columns: 1fr;
+  gap: 18px;
   padding: 26px 0 70px;
 }
 
 .knowledge__intro,
-.ask-panel {
+.ask-panel,
+.answer {
   border-radius: 8px;
 }
 
 .knowledge__intro {
-  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  padding: clamp(28px, 4vw, 46px);
+}
+
+.knowledge__intro::after {
+  position: absolute;
+  inset: auto 28px -60px auto;
+  width: min(380px, 46vw);
+  aspect-ratio: 1;
+  content: "";
+  border: 1px solid rgba(51, 215, 255, 0.22);
+  border-radius: 50%;
+  box-shadow: inset 0 0 44px rgba(51, 215, 255, 0.08);
+  opacity: 0.5;
 }
 
 .knowledge__intro h2 {
+  max-width: 760px;
   margin-bottom: 14px;
   font-size: clamp(2rem, 4vw, 4rem);
   line-height: 1;
+}
+
+.knowledge__intro > p,
+.knowledge__intro .stats {
+  max-width: 860px;
 }
 
 .stats {
@@ -414,20 +435,10 @@ h1 {
 }
 
 .ask-panel {
-  display: grid;
-  grid-template-columns: minmax(280px, 0.85fr) minmax(280px, 1.15fr);
-  gap: 0;
-  overflow: hidden;
-}
-
-.ask-panel__form,
-.answer {
-  padding: 26px;
-}
-
-.ask-panel__form {
-  border-right: 1px solid var(--line);
-  background: rgba(2, 9, 21, 0.38);
+  padding: clamp(22px, 3vw, 34px);
+  background:
+    linear-gradient(135deg, rgba(51, 215, 255, 0.09), transparent 44%),
+    linear-gradient(145deg, rgba(10, 27, 55, 0.72), rgba(8, 13, 30, 0.52));
 }
 
 label {
@@ -439,7 +450,7 @@ label {
 
 textarea {
   width: 100%;
-  min-height: 168px;
+  min-height: 148px;
   resize: vertical;
   padding: 16px;
   border: 1px solid rgba(51, 215, 255, 0.28);
@@ -463,6 +474,7 @@ textarea:focus {
   align-items: center;
   justify-content: center;
   width: 100%;
+  max-width: 320px;
   min-height: 54px;
   margin-top: 14px;
   overflow: hidden;
@@ -495,7 +507,14 @@ textarea:focus {
 }
 
 .answer {
-  min-height: 330px;
+  min-height: 260px;
+  padding: clamp(24px, 3vw, 38px);
+  border: 1px solid var(--line);
+  background:
+    radial-gradient(circle at 88% 10%, rgba(154, 102, 255, 0.14), transparent 34%),
+    linear-gradient(145deg, rgba(10, 27, 55, 0.72), rgba(8, 13, 30, 0.52));
+  backdrop-filter: blur(22px);
+  box-shadow: var(--shadow);
 }
 
 .answer__status {
@@ -783,10 +802,6 @@ textarea:focus {
     grid-column: auto;
   }
 
-  .ask-panel__form {
-    border-right: 0;
-    border-bottom: 1px solid var(--line);
-  }
 }
 
 @media (max-width: 620px) {
@@ -811,7 +826,7 @@ textarea:focus {
   .access-card,
   .pathway,
   .knowledge__intro,
-  .ask-panel__form,
+  .ask-panel,
   .answer {
     padding: 20px;
   }
