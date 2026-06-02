@@ -14,6 +14,14 @@
       "destination": "/metaacademy/jugadores.html"
     },
     {
+      "source": "/maestros",
+      "destination": "/metaacademy/maestros.html"
+    },
+    {
+      "source": "/maestros.html",
+      "destination": "/metaacademy/maestros.html"
+    },
+    {
       "source": "/styles.css",
       "destination": "/metaacademy/styles.css"
     },
