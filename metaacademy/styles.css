@@ -842,6 +842,8 @@ textarea:focus {
 
 .master-command article {
   min-height: 170px;
+  display: grid;
+  align-content: center;
   padding: 22px;
   border: 1px solid rgba(154, 102, 255, 0.34);
   border-radius: 8px;
@@ -849,6 +851,7 @@ textarea:focus {
     linear-gradient(145deg, rgba(24, 20, 60, 0.78), rgba(5, 15, 33, 0.68));
   box-shadow: var(--shadow);
   backdrop-filter: blur(18px);
+  text-align: center;
   transition: transform 180ms ease, border-color 180ms ease;
 }
 
@@ -864,7 +867,7 @@ textarea:focus {
 
 .master-command strong {
   display: block;
-  margin: 16px 0 10px;
+  margin: 0 0 14px;
   font-family: "Rajdhani", "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
   font-size: 1.65rem;
   line-height: 1;
@@ -872,6 +875,8 @@ textarea:focus {
 
 .master-command p {
   margin-bottom: 0;
+  max-width: 280px;
+  margin-inline: auto;
   color: var(--muted);
   line-height: 1.5;
 }
