@@ -32,7 +32,7 @@ async function loadStats() {
       .join(" · ");
     statsEl.textContent = `${stats.total} documentos indexados · ${categories}`;
   } catch {
-    statsEl.textContent = "Base lista, pero no pude leer las estadísticas.";
+    statsEl.textContent = "Base documental disponible. Las estadísticas se actualizarán cuando el servidor responda.";
   }
 }
 
@@ -40,7 +40,7 @@ form.addEventListener("submit", async (event) => {
   event.preventDefault();
   const value = question.value.trim();
 
-  statusEl.textContent = "Consultando conocimiento...";
+  statusEl.textContent = "Consultando la base documental de MetaAcademy...";
   bodyEl.textContent = "";
   sourcesEl.innerHTML = "";
 
@@ -52,12 +52,12 @@ form.addEventListener("submit", async (event) => {
     });
 
     const data = await response.json();
-    statusEl.textContent = data.sources?.length ? "Respuesta generada desde la base local." : "Sin coincidencias fuertes.";
+    statusEl.textContent = data.sources?.length ? "Respuesta generada desde la base documental de MetaAcademy." : "No encontré coincidencias fuertes en la base documental.";
     bodyEl.textContent = data.answer;
     renderSources(data.sources || []);
   } catch {
-    statusEl.textContent = "No pude consultar la base.";
-    bodyEl.textContent = "Revisa que el servidor local de MetaAcademy siga activo.";
+    statusEl.textContent = "No pude consultar la base documental en este momento.";
+    bodyEl.textContent = "Revisa la conexión o intenta nuevamente en unos segundos.";
   }
 });
 

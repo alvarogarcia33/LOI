@@ -86,24 +86,33 @@
       <section id="knowledge" class="knowledge" aria-labelledby="knowledge-title">
         <div class="knowledge__intro">
           <p class="kicker">Cerebro documental</p>
-          <h2 id="knowledge-title">Base de conocimientos</h2>
-          <p>Haz una pregunta y MetaAcademy buscará en los documentos locales capturados desde Olympia Lab.</p>
-          <div class="stats" id="stats" aria-live="polite">Cargando base...</div>
+          <h2 id="knowledge-title">Base de conocimientos MetaAcademy</h2>
+          <p>Consulta la información clave del ecosistema desde una base documental organizada. Puedes hacer preguntas sobre rutas, roles, tokens, franquicias, objetos, reglas, programas, estrategias y oportunidades.</p>
+          <div class="stats" id="stats" aria-live="polite">Preparando la base de conocimientos...</div>
         </div>
 
         <form id="ask-form" class="ask-panel">
           <label for="question">Pregunta</label>
-          <textarea id="question" name="question" rows="4" placeholder="Ejemplo: ¿Cómo funciona el farming estándar de 7PT PRO?"></textarea>
+          <textarea id="question" name="question" rows="4" placeholder="Ejemplo: ¿Cuál es la diferencia entre Jugador, MOG y Creador de Mercado?"></textarea>
+          <div class="question-examples" aria-label="Ejemplos de preguntas">
+            <span>¿Cómo empiezo si soy nuevo en Legends of Interactions?</span>
+            <span>¿Qué hace un Maestro del Juego?</span>
+            <span>¿Qué diferencia hay entre 7PT, 9PT y 7PT PRO?</span>
+            <span>¿Cómo se relacionan LOI, TerritoryX e Interatum?</span>
+            <span>¿Qué oportunidades tiene un Creador de Mercado?</span>
+          </div>
           <button class="pulse-button" type="submit">
             <span>Consultar base</span>
           </button>
         </form>
 
         <div class="answer" aria-live="polite">
-          <div class="answer__status" id="answer-status">Esperando tu pregunta.</div>
+          <div class="answer__status" id="answer-status">Escribe una pregunta para consultar la base documental de MetaAcademy.</div>
           <div class="answer__body" id="answer-body"></div>
           <div class="sources" id="sources"></div>
         </div>
+
+        <p class="knowledge__trust">MetaAcademy no reemplaza el estudio profundo del ecosistema: lo organiza, lo simplifica y lo convierte en una guía práctica para tomar mejores decisiones.</p>
       </section>
     </main>
 
