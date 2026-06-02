@@ -301,7 +301,6 @@ h1 {
 }
 
 .access-card,
-.pathway,
 .ask-panel,
 .knowledge__intro {
   border: 1px solid var(--line);
@@ -421,93 +420,15 @@ h1 {
   line-height: 1.45;
 }
 
-.pathways,
 .video-lab,
 .knowledge {
   width: min(1180px, calc(100% - 36px));
   margin: 0 auto;
 }
 
-.pathways {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 14px;
-  padding: 48px 0 22px;
-}
-
-.pathways__header {
-  grid-column: 1 / -1;
-  max-width: 860px;
-  margin: 0 auto 10px;
-  text-align: center;
-}
-
-.pathways__header h2 {
-  margin-bottom: 14px;
-  font-family: "Rajdhani", "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
-  font-size: clamp(2.2rem, 5vw, 4.4rem);
-  line-height: 0.98;
-}
-
-.pathways__header p {
-  color: var(--muted);
-  font-size: clamp(1rem, 1.6vw, 1.14rem);
-  line-height: 1.65;
-}
-
-.pathway {
-  display: flex;
-  min-height: 440px;
-  flex-direction: column;
-  padding: 26px;
-  border-radius: 8px;
-}
-
-.pathway__label {
-  color: var(--cyan);
-  font-size: 0.78rem;
-  font-weight: 800;
-  text-transform: uppercase;
-}
-
-.pathway h3 {
-  margin: 18px 0 12px;
-  font-family: "Rajdhani", "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
-  font-size: clamp(1.65rem, 2.2vw, 2.25rem);
-  line-height: 1.04;
-}
-
-.pathway p,
 .knowledge__intro p {
   color: var(--muted);
   line-height: 1.65;
-}
-
-.pathway p {
-  flex: 1;
-}
-
-.pathway__button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  min-height: 48px;
-  margin-top: 18px;
-  padding: 0 16px;
-  border: 1px solid rgba(255, 213, 105, 0.38);
-  border-radius: 8px;
-  color: var(--ink);
-  background: rgba(3, 10, 23, 0.50);
-  font-weight: 900;
-  text-align: center;
-  transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
-}
-
-.pathway__button:hover {
-  transform: translateY(-2px);
-  border-color: rgba(255, 213, 105, 0.74);
-  background: rgba(255, 213, 105, 0.10);
 }
 
 .training-card__eyebrow {
@@ -1395,7 +1316,6 @@ textarea:focus {
   }
 
   .access-grid,
-  .pathways,
   .video-lab__header,
   .video-grid,
   .question-examples,
@@ -1441,14 +1361,12 @@ textarea:focus {
   }
 
   .access-card,
-  .pathway,
   .knowledge__intro,
   .ask-panel,
   .answer {
     padding: 20px;
   }
 
-  .pathways,
   .video-lab,
   .knowledge,
   .visual-lane,
