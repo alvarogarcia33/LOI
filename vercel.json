@@ -22,6 +22,14 @@
       "destination": "/metaacademy/maestros.html"
     },
     {
+      "source": "/creadores",
+      "destination": "/metaacademy/creadores.html"
+    },
+    {
+      "source": "/creadores.html",
+      "destination": "/metaacademy/creadores.html"
+    },
+    {
       "source": "/styles.css",
       "destination": "/metaacademy/styles.css"
     },
