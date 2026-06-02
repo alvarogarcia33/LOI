@@ -189,6 +189,7 @@ p {
 }
 
 h1 {
+  position: relative;
   max-width: 920px;
   margin-inline: auto;
   margin-bottom: 18px;
@@ -199,6 +200,30 @@ h1 {
   font-weight: 700;
   text-wrap: balance;
   text-shadow: 0 0 34px rgba(51, 215, 255, 0.28);
+}
+
+#hero-title {
+  color: transparent;
+  background:
+    linear-gradient(180deg, #f4fbff 0%, #dff3ff 58%, #a7dfff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  filter: drop-shadow(0 0 18px rgba(51, 215, 255, 0.20));
+}
+
+#hero-title::after {
+  position: absolute;
+  inset: 0;
+  content: attr(data-title);
+  color: transparent;
+  pointer-events: none;
+  background:
+    linear-gradient(110deg, transparent 0%, transparent 34%, rgba(255, 209, 92, 0.1) 40%, #ffeeb7 47%, #d89c22 51%, rgba(255, 236, 170, 0.82) 56%, transparent 64%, transparent 100%);
+  background-size: 220% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  filter: drop-shadow(0 0 14px rgba(255, 196, 67, 0.55));
+  animation: goldenTitleSweep 3.8s ease-in-out infinite;
 }
 
 .hero__copy {
@@ -1214,6 +1239,24 @@ textarea:focus {
 
 @keyframes rotateGlow {
   to { transform: rotate(1turn); }
+}
+
+@keyframes goldenTitleSweep {
+  0%, 18% {
+    opacity: 0;
+    background-position: 130% 0;
+  }
+  28% {
+    opacity: 1;
+  }
+  58% {
+    opacity: 1;
+    background-position: -80% 0;
+  }
+  72%, 100% {
+    opacity: 0;
+    background-position: -120% 0;
+  }
 }
 
 @media (max-width: 920px) {
