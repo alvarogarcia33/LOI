@@ -759,13 +759,8 @@ textarea:focus {
 .player-hero__content h1,
 .master-hero__content h1,
 .market-hero__content h1 {
-  font-size: clamp(3.4rem, 9vw, 8.2rem);
-}
-
-.master-hero__content h1,
-.market-hero__content h1 {
-  width: min(1080px, 100%);
-  font-size: clamp(3rem, 8vw, 7.6rem);
+  max-width: 920px;
+  font-size: clamp(3rem, 8vw, 7.4rem);
 }
 
 .player-hero__content p,
