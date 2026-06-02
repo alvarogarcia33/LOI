@@ -435,8 +435,30 @@ h1 {
   padding: 48px 0 22px;
 }
 
+.pathways__header {
+  grid-column: 1 / -1;
+  max-width: 860px;
+  margin: 0 auto 10px;
+  text-align: center;
+}
+
+.pathways__header h2 {
+  margin-bottom: 14px;
+  font-family: "Rajdhani", "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  font-size: clamp(2.2rem, 5vw, 4.4rem);
+  line-height: 0.98;
+}
+
+.pathways__header p {
+  color: var(--muted);
+  font-size: clamp(1rem, 1.6vw, 1.14rem);
+  line-height: 1.65;
+}
+
 .pathway {
-  min-height: 220px;
+  display: flex;
+  min-height: 440px;
+  flex-direction: column;
   padding: 26px;
   border-radius: 8px;
 }
@@ -448,15 +470,44 @@ h1 {
   text-transform: uppercase;
 }
 
-.pathway h2 {
+.pathway h3 {
   margin: 18px 0 12px;
-  font-size: clamp(1.45rem, 2vw, 2rem);
+  font-family: "Rajdhani", "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  font-size: clamp(1.65rem, 2.2vw, 2.25rem);
+  line-height: 1.04;
 }
 
 .pathway p,
 .knowledge__intro p {
   color: var(--muted);
   line-height: 1.65;
+}
+
+.pathway p {
+  flex: 1;
+}
+
+.pathway__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 48px;
+  margin-top: 18px;
+  padding: 0 16px;
+  border: 1px solid rgba(255, 213, 105, 0.38);
+  border-radius: 8px;
+  color: var(--ink);
+  background: rgba(3, 10, 23, 0.50);
+  font-weight: 900;
+  text-align: center;
+  transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+}
+
+.pathway__button:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 213, 105, 0.74);
+  background: rgba(255, 213, 105, 0.10);
 }
 
 .training-card__eyebrow {
