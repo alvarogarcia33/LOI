@@ -202,7 +202,7 @@ h1 {
   text-shadow: 0 0 34px rgba(51, 215, 255, 0.28);
 }
 
-#hero-title {
+.gold-title {
   color: transparent;
   background:
     linear-gradient(180deg, #f4fbff 0%, #dff3ff 58%, #a7dfff 100%);
@@ -211,7 +211,7 @@ h1 {
   filter: drop-shadow(0 0 18px rgba(51, 215, 255, 0.20));
 }
 
-#hero-title::after {
+.gold-title::after {
   position: absolute;
   inset: 0;
   content: attr(data-title);
