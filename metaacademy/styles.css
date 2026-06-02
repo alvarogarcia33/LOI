@@ -831,6 +831,8 @@ textarea:focus {
 .master-focus,
 .franchise-proof,
 .franchise-core,
+.franchise-flow,
+.franchise-demand,
 .franchise-kit {
   width: min(1180px, calc(100% - 36px));
   margin-inline: auto;
@@ -1020,13 +1022,57 @@ textarea:focus {
   position: relative;
   z-index: 2;
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 12px;
+  gap: 16px;
   margin-top: -44px;
 }
 
+.franchise-proof__intro {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.95fr) minmax(300px, 1.05fr);
+  overflow: hidden;
+  border: 1px solid rgba(212, 169, 84, 0.4);
+  border-radius: 8px;
+  background:
+    radial-gradient(circle at 80% 18%, rgba(255, 206, 103, 0.18), transparent 34%),
+    linear-gradient(145deg, rgba(13, 21, 45, 0.82), rgba(5, 10, 24, 0.72));
+  box-shadow: var(--shadow);
+}
+
+.franchise-proof__intro img {
+  width: 100%;
+  height: 100%;
+  min-height: 330px;
+  object-fit: cover;
+  filter: saturate(1.12) contrast(1.04);
+}
+
+.franchise-proof__intro div {
+  display: grid;
+  align-content: center;
+  padding: clamp(26px, 4vw, 54px);
+}
+
+.franchise-proof__intro h2 {
+  max-width: 620px;
+  margin: 12px 0 14px;
+  font-size: clamp(2.2rem, 5vw, 5.4rem);
+}
+
+.franchise-proof__intro p:last-child {
+  color: rgba(255, 232, 178, 0.9);
+  font-weight: 800;
+}
+
+.franchise-proof__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
 .franchise-proof article {
-  min-height: 210px;
+  min-height: 260px;
+  display: grid;
+  align-content: start;
   padding: 22px;
   border: 1px solid rgba(255, 91, 216, 0.32);
   border-radius: 8px;
@@ -1045,7 +1091,7 @@ textarea:focus {
 
 .franchise-proof span,
 .franchise-card span {
-  color: var(--cyan);
+  color: var(--gold);
   font-size: 0.78rem;
   font-weight: 900;
   letter-spacing: 0.12em;
@@ -1055,7 +1101,9 @@ textarea:focus {
 .franchise-proof h2,
 .franchise-card h2,
 .franchise-card h3,
-.franchise-core__content h2 {
+.franchise-core__content h2,
+.franchise-flow__content h2,
+.franchise-demand h2 {
   font-family: "Rajdhani", "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
   line-height: 1.04;
 }
@@ -1067,7 +1115,10 @@ textarea:focus {
 
 .franchise-proof p,
 .franchise-card p,
-.franchise-core__content p {
+.franchise-core__content p,
+.franchise-flow__content p,
+.franchise-demand p,
+.franchise-list {
   color: var(--muted);
   line-height: 1.6;
 }
@@ -1129,6 +1180,86 @@ textarea:focus {
   background: rgba(255, 255, 255, 0.045);
   font-weight: 900;
   text-align: center;
+}
+
+.franchise-flow {
+  display: grid;
+  grid-template-columns: minmax(320px, 0.92fr) minmax(320px, 1.08fr);
+  gap: 16px;
+  padding: 14px 0 20px;
+}
+
+.franchise-flow__content,
+.franchise-flow__visual,
+.franchise-demand {
+  overflow: hidden;
+  border: 1px solid rgba(112, 221, 255, 0.26);
+  border-radius: 8px;
+  background: linear-gradient(145deg, rgba(10, 27, 55, 0.72), rgba(8, 13, 30, 0.52));
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(18px);
+}
+
+.franchise-flow__content {
+  display: grid;
+  align-content: center;
+  padding: clamp(28px, 4vw, 46px);
+  background:
+    radial-gradient(circle at 16% 10%, rgba(41, 255, 168, 0.13), transparent 34%),
+    linear-gradient(145deg, rgba(8, 28, 42, 0.74), rgba(8, 13, 30, 0.52));
+}
+
+.franchise-flow__content h2,
+.franchise-demand h2 {
+  margin: 12px 0 16px;
+  font-size: clamp(2.2rem, 4.8vw, 4.8rem);
+}
+
+.franchise-flow__visual img {
+  width: 100%;
+  height: 100%;
+  min-height: 430px;
+  object-fit: cover;
+  filter: saturate(1.1) contrast(1.06);
+}
+
+.franchise-list {
+  display: grid;
+  gap: 12px;
+  padding: 0;
+  margin: 24px 0 0;
+  list-style: none;
+}
+
+.franchise-list li {
+  padding: 14px 16px;
+  border: 1px solid rgba(51, 215, 255, 0.2);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.045);
+}
+
+.franchise-list strong {
+  color: var(--cyan);
+}
+
+.franchise-demand {
+  padding: clamp(30px, 5vw, 58px);
+  margin-bottom: 18px;
+  text-align: center;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(212, 169, 84, 0.16), transparent 38%),
+    linear-gradient(145deg, rgba(30, 18, 45, 0.72), rgba(5, 13, 28, 0.72));
+}
+
+.franchise-demand p {
+  max-width: 880px;
+  margin-inline: auto;
+}
+
+.franchise-demand__note {
+  margin-top: 18px;
+  color: rgba(255, 232, 178, 0.92) !important;
+  font-weight: 900;
 }
 
 .franchise-kit {
@@ -1325,7 +1456,10 @@ textarea:focus {
   .master-command,
   .master-focus,
   .franchise-proof,
+  .franchise-proof__intro,
+  .franchise-proof__grid,
   .franchise-core,
+  .franchise-flow,
   .franchise-kit,
   .production-chain,
   .academy-board,
@@ -1375,6 +1509,8 @@ textarea:focus {
   .master-focus,
   .franchise-proof,
   .franchise-core,
+  .franchise-flow,
+  .franchise-demand,
   .franchise-kit,
   .academy-board {
     width: calc(100% - 24px);
