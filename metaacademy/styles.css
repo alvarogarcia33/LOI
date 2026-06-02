@@ -234,6 +234,62 @@ h1 {
   line-height: 1.6;
 }
 
+.hero__detail {
+  max-width: 780px;
+  margin-inline: auto;
+  color: #dceeff;
+  font-size: clamp(0.98rem, 1.6vw, 1.12rem);
+  line-height: 1.65;
+}
+
+.hero__closing {
+  max-width: 760px;
+  margin: 16px auto 0;
+  color: var(--ink);
+  font-size: clamp(1rem, 1.7vw, 1.18rem);
+  font-weight: 700;
+  line-height: 1.5;
+  text-shadow: 0 0 18px rgba(255, 191, 73, 0.18);
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.hero-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  padding: 0 22px;
+  overflow: hidden;
+  border: 1px solid rgba(112, 221, 255, 0.28);
+  border-radius: 8px;
+  color: var(--ink);
+  background: rgba(3, 10, 23, 0.50);
+  box-shadow: 0 14px 38px rgba(0, 0, 0, 0.20);
+  backdrop-filter: blur(18px);
+  font-weight: 900;
+  transition: transform 180ms ease, border-color 180ms ease, filter 180ms ease;
+}
+
+.hero-button--primary {
+  border-color: rgba(255, 213, 105, 0.62);
+  color: #07101b;
+  background: linear-gradient(135deg, #ffeeb7, #d89c22);
+}
+
+.hero-button:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 213, 105, 0.70);
+  filter: brightness(1.08);
+}
+
 .access-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
