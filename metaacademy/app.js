@@ -19,6 +19,13 @@ function renderSources(sources) {
     meta.textContent = `${source.category} · ${source.path}`;
 
     item.append(title, meta);
+
+    if (source.excerpt) {
+      const excerpt = document.createElement("p");
+      excerpt.textContent = source.excerpt;
+      item.append(excerpt);
+    }
+
     sourcesEl.append(item);
   }
 }
@@ -52,7 +59,15 @@ form.addEventListener("submit", async (event) => {
     });
 
     const data = await response.json();
-    statusEl.textContent = data.sources?.length ? "Respuesta generada desde la base documental de MetaAcademy." : "No encontré coincidencias fuertes en la base documental.";
+    if (data.mode === "ai") {
+      statusEl.textContent = "Respuesta generada con IA a partir de la base documental de MetaAcademy.";
+    } else if (data.mode === "fallback") {
+      statusEl.textContent = "Respuesta generada con el modo documental de respaldo.";
+    } else if (data.sources?.length) {
+      statusEl.textContent = "Respuesta generada desde la base documental de MetaAcademy.";
+    } else {
+      statusEl.textContent = "No encontré coincidencias fuertes en la base documental.";
+    }
     bodyEl.textContent = data.answer;
     renderSources(data.sources || []);
   } catch {

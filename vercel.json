@@ -1,4 +1,9 @@
 {
+  "functions": {
+    "api/*.js": {
+      "includeFiles": "conocimiento/**"
+    }
+  },
   "cleanUrls": true,
   "rewrites": [
     {

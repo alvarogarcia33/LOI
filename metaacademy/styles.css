@@ -728,6 +728,12 @@ textarea:focus {
   font-size: 0.9rem;
 }
 
+.source p {
+  margin: 10px 0 0;
+  color: #dceeff;
+  line-height: 1.5;
+}
+
 .player-page {
   min-height: 100vh;
   background:

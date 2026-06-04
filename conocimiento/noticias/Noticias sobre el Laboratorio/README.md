@@ -1,10 +1,11 @@
 # Noticias sobre el Laboratorio
 
-Articulos capturados: 184
-Fecha de captura: 2026-06-01
+Articulos capturados: 185
+Fecha de captura: 2026-06-04
 
 ## Indice
 
+- 03.06.2026 - [Funcionalidad de creación de Factory.DroneX ha sido lanzada](./2026-06-03-0208-funcionalidad-de-creacion-de-factory-dronex-ha-sido-lanzada.md)
 - 01.06.2026 - [Actualización de PINs: ¡plazo extendido!](./2026-06-01-0207-actualizacion-de-pins-plazo-extendido.md)
 - 30.05.2026 - [Factory.DroneX: fábrica de los drones premium](./2026-05-30-0206-factory-dronex-fabrica-de-los-drones-premium.md)
 - 22.05.2026 - [Fifteen Force: nuevo nivel](./2026-05-22-0203-fifteen-force-nuevo-nivel.md)

@@ -1,4 +1,4 @@
-const { answerQuestion } = require("./knowledge");
+const { answerQuestion } = require("./answer");
 
 async function readBody(req) {
   if (req.body && typeof req.body === "object") return req.body;
