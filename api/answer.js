@@ -5,7 +5,17 @@ const {
 } = require("./knowledge");
 
 const OPENAI_API_URL = "https://api.openai.com/v1/responses";
-const DEFAULT_MODEL = process.env.OPENAI_MODEL || "gpt-5-mini";
+const DEFAULT_MODEL = sanitizeEnvValue(process.env.OPENAI_MODEL) || "gpt-4.1-mini";
+
+function sanitizeEnvValue(value) {
+  if (!value) return "";
+
+  return String(value)
+    .split(/\r?\n/)
+    .map((part) => part.trim())
+    .filter((part) => part && part.toLowerCase() !== "yes" && part.toLowerCase() !== "y")
+    .at(-1) || "";
+}
 
 function buildKnowledgePrompt(question, sources) {
   const formattedSources = sources
@@ -34,7 +44,7 @@ function buildKnowledgePrompt(question, sources) {
 }
 
 async function generateWithOpenAI(question, sources) {
-  const apiKey = process.env.OPENAI_API_KEY;
+  const apiKey = sanitizeEnvValue(process.env.OPENAI_API_KEY);
   if (!apiKey) return null;
 
   const response = await fetch(OPENAI_API_URL, {
