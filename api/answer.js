@@ -56,8 +56,23 @@ async function generateWithOpenAI(question, sources) {
   }
 
   const data = await response.json();
-  const answer = typeof data.output_text === "string" ? data.output_text.trim() : "";
+  const answer = extractResponseText(data);
   return answer || null;
+}
+
+function extractResponseText(data) {
+  if (typeof data?.output_text === "string" && data.output_text.trim()) {
+    return data.output_text.trim();
+  }
+
+  if (!Array.isArray(data?.output)) return "";
+
+  return data.output
+    .flatMap((item) => Array.isArray(item?.content) ? item.content : [])
+    .filter((content) => content?.type === "output_text" && typeof content.text === "string")
+    .map((content) => content.text.trim())
+    .filter(Boolean)
+    .join("\n\n");
 }
 
 async function answerQuestion(question) {
