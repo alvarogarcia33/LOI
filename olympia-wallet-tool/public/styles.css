@@ -1,0 +1,241 @@
+:root {
+  color-scheme: dark;
+  --bg: #0b0d10;
+  --panel: #14181d;
+  --panel-strong: #1b2027;
+  --ink: #f7f7f2;
+  --muted: #9ca6b3;
+  --line: #2a313a;
+  --accent: #f3c316;
+  --good: #36d7bd;
+  --bad: #ff4d4d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  color: var(--ink);
+  background:
+    linear-gradient(180deg, rgba(243, 195, 22, 0.08), transparent 280px),
+    var(--bg);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  width: min(1000px, calc(100vw - 32px));
+  margin: 0 auto;
+  padding: 36px 0;
+}
+
+.top {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(30px, 4vw, 44px);
+  line-height: 1.05;
+  letter-spacing: 0;
+}
+
+p {
+  margin: 8px 0 0;
+  color: var(--muted);
+}
+
+.download,
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 16px;
+  border: 0;
+  border-radius: 6px;
+  color: #111;
+  background: var(--accent);
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button.secondary {
+  color: var(--ink);
+  background: var(--panel-strong);
+  border: 1px solid var(--line);
+}
+
+button:disabled {
+  opacity: 0.62;
+  cursor: wait;
+}
+
+.toolbar {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(20, 24, 29, 0.72);
+}
+
+.status {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 0 14px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--muted);
+  background: #0d1116;
+  overflow-wrap: anywhere;
+}
+
+.lookup {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  box-shadow: 0 22px 70px rgba(0, 0, 0, 0.35);
+}
+
+.search {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+  padding: 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+input {
+  width: 100%;
+  min-height: 48px;
+  padding: 0 14px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--ink);
+  background: #0d1116;
+  font-size: 16px;
+  outline: none;
+}
+
+input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(243, 195, 22, 0.16);
+}
+
+.search button {
+  align-self: end;
+  min-height: 48px;
+}
+
+.result {
+  min-height: 224px;
+  padding: 20px;
+}
+
+.empty {
+  display: flex;
+  min-height: 174px;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  text-align: center;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  margin-bottom: 16px;
+  padding: 0 10px;
+  border: 1px solid rgba(54, 215, 189, 0.32);
+  border-radius: 999px;
+  color: var(--good);
+  background: rgba(54, 215, 189, 0.08);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.badge.bad {
+  border-color: rgba(255, 77, 77, 0.34);
+  color: var(--bad);
+  background: rgba(255, 77, 77, 0.08);
+}
+
+.person {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.field {
+  min-width: 0;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel-strong);
+}
+
+.field.wide {
+  grid-column: 1 / -1;
+}
+
+.field span {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.field strong {
+  display: block;
+  overflow-wrap: anywhere;
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.field.wide strong {
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 15px;
+}
+
+@media (max-width: 760px) {
+  main {
+    width: min(100vw - 20px, 1000px);
+    padding: 20px 0;
+  }
+
+  .top,
+  .toolbar,
+  .search,
+  .person {
+    grid-template-columns: 1fr;
+    display: grid;
+  }
+
+  .download,
+  button {
+    width: 100%;
+  }
+}

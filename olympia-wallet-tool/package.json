@@ -1,0 +1,12 @@
+{
+  "name": "olympia-wallet-tool",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Herramienta local para extraer Mi Equipo de Olympia y buscar usuarios por wallet.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "playwright": "^1.60.0"
+  }
+}
